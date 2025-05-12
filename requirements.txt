@@ -1,0 +1,14 @@
+pinecone
+transformers
+pymupdf
+langchain
+sentence_transformers
+python-dotenv
+protobuf
+# fastapi
+# uvicorn
+# pymupdf
+# requests
+# python-dotenv
+# langchain
+# pinecone-client

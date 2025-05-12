@@ -1,0 +1,6 @@
+.env
+.DS_Store
+
+
+ragproj/
+__pycache__/
