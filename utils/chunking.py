@@ -1,3 +1,4 @@
+
 import os
 import fitz  # PyMuPDF
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -21,9 +22,10 @@ def extract_docs(folder_path, chunk_size=500, chunk_overlap=50):
             
             # Attach metadata
             for chunk in chunks:
-                chunk.id = {
+                chunk.metadata = {
                     "source": file
                 }
             all_chunks.extend(chunks)
 
     return all_chunks
+
