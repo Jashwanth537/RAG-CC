@@ -1,0 +1,68 @@
+{
+  "test_questions": [
+    {
+      "id": "q1",
+      "question": "What is the annual fee for HDFC MoneyBack+ card?",
+      "expected_info": "Annual fee details for HDFC MoneyBack+ card",
+      "relevant_sources": ["HDFC_Moneyback+_mitc.pdf"],
+      "difficulty": "easy",
+      "category": "fees"
+    },
+    {
+      "id": "q2", 
+      "question": "Which card offers the best cashback for online shopping?",
+      "expected_info": "Comparison of cashback rates for online purchases",
+      "relevant_sources": ["HDFC_Moneyback+_mitc.pdf", "ICICI_mitc.pdf"],
+      "difficulty": "medium",
+      "category": "rewards"
+    },
+    {
+      "id": "q3",
+      "question": "What are the eligibility criteria for ICICI Amazon Pay card?",
+      "expected_info": "Income and eligibility requirements for ICICI Amazon Pay card",
+      "relevant_sources": ["ICICI_mitc.pdf"],
+      "difficulty": "easy", 
+      "category": "eligibility"
+    },
+    {
+      "id": "q4",
+      "question": "How do I activate my IndusInd Tiger credit card?",
+      "expected_info": "Card activation process for IndusInd Tiger card",
+      "relevant_sources": ["IndusInd_Tiger.pdf"],
+      "difficulty": "easy",
+      "category": "usage"
+    },
+    {
+      "id": "q5",
+      "question": "Which cards have no joining fee and what are their benefits?",
+      "expected_info": "Cards with zero joining fee and their reward structures",
+      "relevant_sources": ["HDFC_Moneyback+_mitc.pdf", "ICICI_mitc.pdf", "IndusInd_Tiger.pdf"],
+      "difficulty": "hard",
+      "category": "comparison"
+    },
+    {
+      "id": "q6",
+      "question": "What is the fuel surcharge waiver benefit on HSBC Live+ card?",
+      "expected_info": "Fuel transaction benefits and surcharge waiver details",
+      "relevant_sources": ["HSBC_Live+.pdf"],
+      "difficulty": "medium",
+      "category": "benefits"
+    },
+    {
+      "id": "q7",
+      "question": "Can I get a credit card with a salary of 25,000 rupees?",
+      "expected_info": "Minimum income requirements across different cards",
+      "relevant_sources": ["HDFC_Moneyback+_mitc.pdf", "ICICI_mitc.pdf", "IndusInd_Tiger.pdf"],
+      "difficulty": "medium",
+      "category": "eligibility"
+    },
+    {
+      "id": "q8",
+      "question": "What happens if I miss my credit card payment deadline?",
+      "expected_info": "Late payment charges and consequences",
+      "relevant_sources": ["HDFC_Moneyback+_mitc.pdf", "ICICI_mitc.pdf"],
+      "difficulty": "easy",
+      "category": "policies"
+    }
+  ]
+} 

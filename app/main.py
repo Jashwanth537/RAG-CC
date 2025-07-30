@@ -24,7 +24,7 @@ if not pc.has_index(index_name):
     )
 #connect to the index
 index = pc.Index(index_name)
-time.sleep(1)
+# time.sleep(1)
 index.describe_index_stats()
 prepare_data(index)
 

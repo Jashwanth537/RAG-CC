@@ -5,6 +5,8 @@ langchain
 sentence_transformers
 python-dotenv
 protobuf
+groq
+scikit-learn
 # fastapi
 # uvicorn
 # pymupdf
